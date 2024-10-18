@@ -12,4 +12,12 @@ its counterpart in the product would be a number smaller than sqrt(n), thus, we 
 Finally, if the function did not stop and went through the whole loop uninterrupted, n was not divisible by a number between 2 and sqrt(n). Therefore, n is a prime number; you can return a True value.
 
 Creating a Function to Count Prime Numbers in a Range
+I Initialized a variable 'count' and set its initial value to 0;
 
+Next Set up a loop that goes through every number in the given range;
+
+For each number, i applied the function 'is_prime()' to check if it’s a prime;
+
+If the number is prime, increase the value of count by 1;
+
+After the loop, it prints out the value of count.
